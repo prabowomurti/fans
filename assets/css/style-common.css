@@ -1,0 +1,56 @@
+/*
+	CSS filename	: style-common.css
+	Author		: Prabowo Murti (prabowo.murti at gmail.com)
+	Created on		: January 1st, 2012
+	
+*/
+
+body {background: url("../images/blueprint.png") black;margin: 0;padding: 0;font-family: 'Trebuchet MS', Arial;font-size: 12px;color: #474747;}
+
+a {color:#0054a6; text-decoration: none}
+a:hover {text-decoration: underline}
+
+.loading_message {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0 auto;
+	color: #3B3B3B;
+	background: -webkit-linear-gradient(top, #F8F8F8 0%,#F3F3F3 100%);
+	font-size: 11px;
+	text-align: center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.container{
+	display: block;
+	width: 100%;
+}
+
+.row_1, row_2, row_3 {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+
+.row_1 {
+	min-height: 200px;
+}
+
+.col_1 {
+	display: block;
+	width: 33.33%;
+	float: left;
+	border: 1px solid red;
+}
+
+#the_box {
+	text-align: center;
+	display: block;
+	width: 33.33%;
+	background-color: white;
+}
+
+
